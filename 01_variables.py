@@ -29,6 +29,6 @@ print(len(my_string_var))
 
 
 # Variables in one line
-name, surname, alias, age = "Bryan", "Torres", 'Dev', 35
-
+name, surname, alias, age = "Bryan", "Torres", 'Dev', 35.2
+print(type(age))
 print(name, age, surname, alias, "my age is: " + str(age))
