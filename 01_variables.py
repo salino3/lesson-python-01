@@ -1,5 +1,6 @@
 # Variables - always in lowercase - convention
 
+'''
 my_string_var = "My string variable"
 print(my_string_var)
 
@@ -32,3 +33,27 @@ print(len(my_string_var))
 name, surname, alias, age = "Bryan", "Torres", 'Dev', 35.2
 print(type(age))
 print(name, age, surname, alias, "my age is: " + str(age))
+
+
+
+'''
+
+name = 60
+age = 33
+
+print(name + age)
+
+# first_name = input("What\'is your name?\n")
+# I can modify variables value with input()
+
+# name = input("What\'is your name?\n")
+# age = input('How old are you?\n')
+
+print ('My name is ' + name + ' and I\'m ' + age + ' years old', name + age)
+
+
+address: str = "My address"
+address = 40
+print(type(address))
+
+
