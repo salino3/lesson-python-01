@@ -36,7 +36,7 @@ print((3 == 4) == (4 >= 4))
 
 print('. Alfabetic orden ----------')
 
-# Alfabetic orden for ASCII
+# alphabetical orden for ASCII
 print("Hola" <  "Python")
 print("Hola" >  "Python")
 print("Hola" <= "Python")
