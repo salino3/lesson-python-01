@@ -47,7 +47,7 @@ my_others_list.insert(1, "Blue") # (index, value)
 
 print(my_others_list)
 
-my_others_list.remove("Blue") # (value) fist one match the value
+my_others_list.remove("Blue") # (value) first one match the value
 
 print(my_others_list)
 
@@ -107,6 +107,7 @@ list.sort(key=custom_key) # using result as rule for ordering the elements
 
 print(list)
 
+# ------
 
 def custom_key_complex(element, value):
     return element % value
@@ -119,3 +120,6 @@ my_strings.sort()
 
 print(my_strings) # output: ['apple', 'banana', 'grape', 'kiwi', 'orange']
 
+# del my_strings # Error
+
+# print(my_strings) # Error
