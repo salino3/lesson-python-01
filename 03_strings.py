@@ -18,7 +18,7 @@ print(my_escape_string)
 
 # %s %d %f %. 
 
-name, surname, age = "Brayan", "Moure", 25.0
+name, surname, age = "Bryan", "Moure", 25.0
 
 print("My name is {} {} and I\'m {} years old" .format(name, surname, age))
 print("My name is %s %s and I\'m %d years old" %(name, surname, age))
