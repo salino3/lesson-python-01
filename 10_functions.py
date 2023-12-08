@@ -1,7 +1,10 @@
+
 # my_function() # Traceback (most recent call last):
   #   File "C:\Users\Usuario1\Desktop\Python\lesson-python-01\10_functions.py", line 1, in <module>
   #     my_function()
   # NameError: name 'my_function' is not defined
+
+## function can not be executed before created
 
 # def - define
 def my_function():

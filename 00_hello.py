@@ -18,4 +18,5 @@ print(type(3 + 1)) # int
 print(type(True)) # bool
 
 
-
+name = input("Escribe tu nombre: \n")
+print("Hola", name + "!")
